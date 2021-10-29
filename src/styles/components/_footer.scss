@@ -1,0 +1,41 @@
+.footer {
+  &__container {
+    padding: 15px;
+    text-align: center;
+  }
+
+  &__links {
+    margin-top: 20px;
+
+    li + li {
+      margin-top: 5px;
+    }
+  }
+
+  &__links-item {
+    color: $color-black;
+
+    &:hover {
+      color: $color-dark-green;
+    }
+  }
+
+  @include breakpoint-tablet {
+    &__container {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+      padding: 25px 30px;
+    }
+
+    &__links {
+      align-items: center;
+      display: flex;
+      margin-top: 0;
+
+      li + li {
+        margin: 0 0 0 10px;
+      }
+    }
+  }
+}
