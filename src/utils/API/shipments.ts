@@ -1,5 +1,5 @@
-import { mockShipments } from "../../data/mockShipments"
-import { Shipment } from "../../models/Shipment"
+import { mockShipments } from '../../data/mockShipments'
+import { Shipment } from '../../models/Shipment'
 
 const getShipments = () => new Promise((resolve, reject) => {
     const shipments = localStorage.getItem('shipments')

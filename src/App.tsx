@@ -6,10 +6,11 @@ import * as Routes from './routes'
 
 const App = () => (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/">
         <Header />
         <Switch>
           <Route exact path="/shipments" component={Routes.Shipments} />
+          <Route path="/shipment/:id" component={Routes.ShipmentDetails} />
         </Switch>
         <Footer />
       </BrowserRouter>

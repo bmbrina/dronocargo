@@ -1,4 +1,4 @@
-import { Shipment } from "../models/Shipment";
+import { Shipment } from '../models/Shipment';
 
 export const mockShipments: Shipment[] = [
   {
