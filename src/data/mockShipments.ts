@@ -1,6 +1,6 @@
-import { Delivery } from "../models/Delivery";
+import { Shipment } from "../models/Shipment";
 
-export const mockDeliveries: Delivery[] = [
+export const mockShipments: Shipment[] = [
   {
     status: 'Ready',
     orderId: '001-300FCT',

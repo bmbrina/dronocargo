@@ -1,5 +1,5 @@
-export interface Delivery {
-  status: DeliveryStatus
+export interface Shipment {
+  status: ShipmentStatus
   orderId: string
   technician: string
   platform: string
@@ -7,7 +7,7 @@ export interface Delivery {
   technicalCheck: TechnicalCheckStatus
 }
 
-export type DeliveryStatus =
+export type ShipmentStatus =
   | 'Ready'
   | 'Pending'
 
