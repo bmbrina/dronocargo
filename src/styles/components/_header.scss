@@ -1,0 +1,30 @@
+.header {
+  &__container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+
+  &__logo-text {
+    color: $color-black;
+    font-weight: 600;
+  }
+
+  &__user {
+    align-items: center;
+    display: flex;
+  }
+
+  &__user-icon {
+    height: 20px;
+    margin-left: 10px;
+    width: 20px;
+  }
+
+  @include breakpoint-tablet {
+    &__container {
+      padding: 25px 30px;
+    }
+  }
+}

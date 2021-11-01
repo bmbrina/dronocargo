@@ -1,0 +1,17 @@
+.shipment-details {
+  min-height: calc(100vh - 136px);
+
+  &__container {
+    padding: 0 15px;
+  }
+
+  &__title {
+    font-size: 30px;
+  }
+
+  @include breakpoint-tablet {
+    &__container {
+      padding: 0 30px;
+    }
+  }
+}

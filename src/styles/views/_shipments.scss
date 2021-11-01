@@ -1,0 +1,114 @@
+.shipments {
+  &__container {
+    padding: 0 15px;
+  }
+
+  &__header {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+
+  &__title {
+    font-size: 30px;
+    margin-bottom: 15px;
+
+    span {
+      color: $color-gray;
+      font-weight: 300;
+    }
+  }
+
+  &__actions {
+    align-items: center;
+    display: flex;
+
+    >:not(:first-child) {
+      margin-left: 15px;
+    }
+
+    .form-group__input {
+      width: 200px;
+    }
+  }
+
+  &__content {
+    min-height: calc(100vh - 230px);
+    overflow-x: scroll;
+
+    &--center {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &__table {
+    width: 100%;
+  }
+
+  &__table-row {
+    &:not(:last-child) {
+      box-shadow: inset 0 -1px 0 rgba($color-black, .1);
+    }
+  }
+
+  &__table-cell {
+    padding: 30px 50px 30px 0;
+    vertical-align: top;
+    width: calc(100vw - 60px / 7);
+
+    &--bold {
+      font-weight: 500;
+    }
+
+    span {
+      color: $color-gray;
+      display: block;
+      font-size: 14px;
+      line-height: 16px;
+    }
+
+    &.empty-shipments {
+      text-align: center;
+    }
+  }
+
+  &__table-actions {
+    display: flex;
+
+    >:not(:first-child) {
+      margin-left: 15px;
+    }
+
+    .form-group__select {
+      width: 110px;
+    }
+  }
+
+  @include breakpoint-tablet {
+    &__container {
+      padding: 0 30px;
+    }
+
+    &__header {
+      flex-wrap: nowrap;
+    }
+
+    &__title {
+      margin-bottom: 0;
+    }
+
+    &__actions {
+      .form-group__input {
+        width: 240px;
+      }
+    }
+
+    &__table-cell {
+      padding: 30px 0;
+    }
+  }
+}

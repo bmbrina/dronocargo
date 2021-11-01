@@ -1,0 +1,33 @@
+.form-group {
+  &__label {
+    color: $color-gray;
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  &__input,
+  &__select {
+    border: 1px solid rgba($color-black, .15);
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba($color-black, .1);
+    height: 40px;
+    padding: 10px 15px;
+    width: 240px;
+
+    &.search {
+      background-image: url('../../images/search.svg');
+      background-position: 20px center;
+      background-repeat: no-repeat;
+      background-size: 18px 18px;
+      padding-left: 50px;
+    }
+  }
+
+  &__select {
+    appearance: none;
+    background-image: url('../../images/caret-down.svg');
+    background-position: 85% 50%;
+    background-repeat: no-repeat;
+  }
+}
