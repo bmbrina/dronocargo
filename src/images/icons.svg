@@ -1,15 +1,7 @@
 <svg width="0" height="0" class="hidden">
-  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" id="search">
-    <title>Search Icon</title>
-    <path d="M12.5 11H11.71L11.43 10.73C12.41 9.59 13 8.11 13 6.5C13 2.91 10.09 0 6.5 0C2.91 0 0 2.91 0 6.5C0 10.09 2.91 13 6.5 13C8.11 13 9.59 12.41 10.73 11.43L11 11.71V12.5L16 17.49L17.49 16L12.5 11ZM6.5 11C4.01 11 2 8.99 2 6.5C2 4.01 4.01 2 6.5 2C8.99 2 11 4.01 11 6.5C11 8.99 8.99 11 6.5 11Z" fill="black" fill-opacity="0.25"></path>
-  </symbol>
   <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" id="window">
     <title>Window Icon</title>
     <path d="M6.10352e-05 0V16H20.0001V0H6.10352e-05ZM18.0001 4.67H15.5001V2H18.0001V4.67ZM15.5001 6.67H18.0001V9.34H15.5001V6.67ZM2.00006 2H13.5001V14H2.00006V2ZM15.5001 14V11.33H18.0001V14H15.5001Z" fill="black" fill-opacity="0.25"></path>
-  </symbol>
-  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 8" id="caret-down">
-    <title>Caret Down Icon</title>
-    <path d="M1.41006 0.590088L6.00006 5.17009L10.5901 0.590088L12.0001 2.00009L6.00006 8.00009L6.10352e-05 2.00009L1.41006 0.590088Z" fill="black" fill-opacity="0.25"></path>
   </symbol>
   <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" id="avatar">
     <title>Avatar Icon</title>

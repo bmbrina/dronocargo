@@ -1,0 +1,33 @@
+.button {
+  border: 1px solid rgba($color-black, .15);
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba($color-black, .1);
+  font-weight: 500;
+  height: 40px;
+  padding: 10px 15px;
+
+  &--primary {
+    background-color: $color-dark-green;
+    color: $color-white;
+  }
+
+  &--with-icon {
+    align-items: center;
+    display: flex;
+  }
+
+  &__icon {
+    &--left {
+      margin-right: 10px;
+    }
+
+    &--right {
+      margin-left: 10px;
+    }
+
+    &--window {
+      height: 16px;
+      width: 20px;
+    }
+  }
+}

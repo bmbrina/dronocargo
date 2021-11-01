@@ -4,5 +4,6 @@
   "singleQuote": true,
   "semi": false,
   "useTabs": false,
-  "trailingComma": "none"
+  "trailingComma": "none",
+  "disableLanguages": []
 }

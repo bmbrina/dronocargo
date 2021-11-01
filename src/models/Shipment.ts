@@ -1,6 +1,6 @@
 export interface Shipment {
   status: ShipmentStatus
-  orderId: string
+  id: string
   technician: string
   platform: string
   drone: string
