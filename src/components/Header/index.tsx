@@ -5,7 +5,7 @@ import Icons from '../../images/icons.svg'
 const Header = () => (
     <div className="header">
       <div className="header__container">
-        <Link to="/" className="header__logo">
+        <Link to="/shipments" className="header__logo">
           <h1 className="header__logo-text">Dronocargo</h1>
         </Link>
         <div className="header__user">
