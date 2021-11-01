@@ -1,0 +1,30 @@
+.form {
+  &__fields {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 30px;
+
+    .form-group {
+      flex: 50%;
+      margin-bottom: 30px;
+    }
+  }
+
+  &__error {
+    color: $color-red;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  &__actions {
+    align-items: center;
+    box-shadow: inset 0 1px 0 rgba($color-black, .1);
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px 25px 0;
+
+    >:not(:first-child) {
+      margin-left: 15px;
+    }
+  }
+}

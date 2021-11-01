@@ -1,6 +1,7 @@
 .form-group {
   &__label {
     color: $color-gray;
+    display: block;
     font-size: 14px;
     line-height: 24px;
   }
@@ -28,6 +29,5 @@
 		background-image: url('../../images/caret-down.svg');
 		background-position: 85% 50%;
 		background-repeat: no-repeat;
-    width: auto;
 	}
 }

@@ -5,6 +5,7 @@ export interface Shipment {
   platform: string
   drone: string
   technicalCheck: TechnicalCheckStatus
+  [k: string]: any
 }
 
 export type ShipmentStatus =

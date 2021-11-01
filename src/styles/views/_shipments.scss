@@ -28,6 +28,16 @@
     }
   }
 
+  &__content {
+    min-height: calc(100vh - 230px);
+
+    &--center {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
   &__table {
     width: 100%;
   }
@@ -52,6 +62,10 @@
       display: block;
       font-size: 14px;
       line-height: 16px;
+    }
+
+    &.empty-shipments {
+      text-align: center;
     }
   }
 
