@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dronocargo/static/css/main.5754205d.chunk.css",
-    "main.js": "/dronocargo/static/js/main.84779600.chunk.js",
-    "main.js.map": "/dronocargo/static/js/main.84779600.chunk.js.map",
+    "main.js": "/dronocargo/static/js/main.0bba6132.chunk.js",
+    "main.js.map": "/dronocargo/static/js/main.0bba6132.chunk.js.map",
     "runtime-main.js": "/dronocargo/static/js/runtime-main.ea7b89d9.js",
     "runtime-main.js.map": "/dronocargo/static/js/runtime-main.ea7b89d9.js.map",
     "static/js/2.a7a2d2ea.chunk.js": "/dronocargo/static/js/2.a7a2d2ea.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.ea7b89d9.js",
     "static/js/2.a7a2d2ea.chunk.js",
     "static/css/main.5754205d.chunk.css",
-    "static/js/main.84779600.chunk.js"
+    "static/js/main.0bba6132.chunk.js"
   ]
 }
