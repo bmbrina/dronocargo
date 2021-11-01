@@ -1,0 +1,11 @@
+.shipment-details {
+  min-height: calc(100vh - 136px);
+
+  &__container {
+    padding: 0 30px;
+  }
+
+  &__title {
+    font-size: 30px;
+  }
+}
