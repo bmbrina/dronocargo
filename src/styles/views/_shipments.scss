@@ -35,8 +35,8 @@
   }
 
   &__content {
-    overflow-x: scroll;
     min-height: calc(100vh - 230px);
+    overflow-x: scroll;
 
     &--center {
       align-items: center;
@@ -84,7 +84,7 @@
     }
 
     .form-group__select {
-      width: 100px;
+      width: 110px;
     }
   }
 
