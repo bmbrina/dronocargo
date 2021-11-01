@@ -6,7 +6,7 @@ import * as Routes from './routes'
 
 const App = () => (
     <div className="App">
-      <BrowserRouter basename="/">
+      <BrowserRouter basename="/dronocargo">
         <Header />
         <Switch>
           <Route exact path="/" render={() => (
