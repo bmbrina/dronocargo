@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/dronocargo/static/css/main.5754205d.chunk.css",
+    "main.js": "/dronocargo/static/js/main.84779600.chunk.js",
+    "main.js.map": "/dronocargo/static/js/main.84779600.chunk.js.map",
+    "runtime-main.js": "/dronocargo/static/js/runtime-main.ea7b89d9.js",
+    "runtime-main.js.map": "/dronocargo/static/js/runtime-main.ea7b89d9.js.map",
+    "static/js/2.a7a2d2ea.chunk.js": "/dronocargo/static/js/2.a7a2d2ea.chunk.js",
+    "static/js/2.a7a2d2ea.chunk.js.map": "/dronocargo/static/js/2.a7a2d2ea.chunk.js.map",
+    "static/js/3.4d496a0f.chunk.js": "/dronocargo/static/js/3.4d496a0f.chunk.js",
+    "static/js/3.4d496a0f.chunk.js.map": "/dronocargo/static/js/3.4d496a0f.chunk.js.map",
+    "index.html": "/dronocargo/index.html",
+    "static/css/main.5754205d.chunk.css.map": "/dronocargo/static/css/main.5754205d.chunk.css.map",
+    "static/js/2.a7a2d2ea.chunk.js.LICENSE.txt": "/dronocargo/static/js/2.a7a2d2ea.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/dronocargo/static/media/search.d2eaee7e.svg",
+    "static/media/icons.0f8ad784.svg": "/dronocargo/static/media/icons.0f8ad784.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ea7b89d9.js",
+    "static/js/2.a7a2d2ea.chunk.js",
+    "static/css/main.5754205d.chunk.css",
+    "static/js/main.84779600.chunk.js"
+  ]
+}
